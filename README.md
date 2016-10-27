@@ -6,3 +6,4 @@ List in Python look like aray but it can do more thing than array, List is used 
 2. pop() : remove item from end of the list
 3. extends() : Add collection of data in list
 4. remove() : remove item from list by using item's name
+5. insert() : insert item at any position in list
