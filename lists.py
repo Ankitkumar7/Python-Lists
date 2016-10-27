@@ -37,3 +37,37 @@ print(cast)
 cast.insert(0, "Chapman")
 print("New Cast Added at position 0 ", cast[0])
 print(cast)
+
+"""
+Let's take a bit of time to try to work out which strategy to use adding data to our listin this case
+Adding more data to list
+
+"""
+
+#Given the following list-creation code
+movies = ["The Holy Grail", "The Life of Brian", "The Meaning of Life"]
+
+"""
+Code requred to insert numeric year
+Given data: ["The Holy Grail", 1975, "The Life of Brian", 1979,"The Meaning of Life, 1983"]
+
+"""
+print("Inserting 1975 at position 1")
+movies.insert(1,1975)
+print(movies[1]," inserted")
+print("Inserting 1979 at position 3")
+movies.insert(3,1979)
+print(movies[3], " inserted")
+print(movies)
+print("Inserting 1983 at postion last")
+movies.append(1983)
+print(movies[-1], " inserted")
+print(movies)
+print("Insertion Process Finished")
+
+
+#inserting item all in one go
+movies = ["The Holy Grail", 1975,
+          "The Life of Brian", 1979,
+          "The Meaning of Life, 1983"]
+print(movies)
