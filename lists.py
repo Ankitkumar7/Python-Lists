@@ -28,8 +28,12 @@ print('extending ' , new_casts)
 cast.extend(new_casts)
 print(cast)
 
-#remove
+#remove()
 print("Removing",cast[-1])
 cast.remove('Chapman')
 print(cast)
 
+#insert()
+cast.insert(0, "Chapman")
+print("New Cast Added at position 0 ", cast[0])
+print(cast)
